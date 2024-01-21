@@ -6,5 +6,5 @@ Bu projeyi yapmamdaki amaç ev fiyat tahmini yaptıran bir proje için veri topl
 
 ## İletişim
 
-Proje sahibi: ### Oğuzhan Erbil
-Mail: oerbil06@gmail.com
+### Proje sahibi: Oğuzhan Erbil
+### Mail: oerbil06@gmail.com
