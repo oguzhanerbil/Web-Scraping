@@ -86,7 +86,7 @@ for sehir in allCity:
         try:
             nextButton = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,"//*[@class='_3au2n_ OTUgAO']/div/a")))
             driver.execute_script("arguments[0].click();", nextButton)
-            print("oh be oğluuuuuuuuuuum")
+            print("Buton bulunmuyor.")
         except TimeoutException as e:
             print(f"Bir sorun oluştu: {e}")
             driver.close()
