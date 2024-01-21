@@ -91,7 +91,6 @@ for sehir in allCity:
             print(f"Bir sorun oluştu: {e}")
             driver.close()
             break
-# CSV dosyasının var olup olmadığını kontrol et
 if not os.path.exists(csv_dosya_adi):
     toplu_veriler.to_csv(csv_dosya_adi, encoding="utf-8", index=False, header=True, mode="w")
 else:
