@@ -90,8 +90,6 @@ for sehir in allCity:
             except Exception as e:
                 print(f"Hatalı kod: {e}, Satır: {sys.exc_info()[-1].tb_lineno}")
         try:
-            nextButton = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,"//*[@class='_3au2n_ OTUgAO']/div/a")))
-            driver.execute_script("arguments[0].click();", nextButton)
             driver.quit()
          
             c+=1
